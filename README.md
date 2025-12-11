@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=F48FB1,FFF59D,81D4FA&height=250&section=header&text=PokeDraft%20Battles&fontSize=50&fontColor=ffffff&fontAlignY=40&animation=fadeIn"/>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge&logo=tools&logoColor=white&color=FBC02D" alt="Status Em Desenvolvimento"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&color=F48FB1" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white&color=81D4FA" alt="Axios"/>
+</div>
 
-## Available Scripts
+<p align="center">
+  Um jogo de batalha Pokémon baseado em sorte e estratégia de escolha (Draft), consumindo dados reais da <a href="https://pokeapi.co/" target="_blank">PokeAPI</a>.
+</p>
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## 💻 Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O **PokeDraft Battles** é um desafio de lógica e manipulação de arrays. Diferente de uma batalha comum, aqui o jogador precisa tomar decisões estratégicas com recursos limitados. O sistema gera cenários aleatórios onde você deve montar a melhor equipe possível a partir de opções pré-definidas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✨ Mecânica do Jogo
 
-### `npm test`
+- [x] **Inimigo Oculto:** O sistema gera 3 Pokémons aleatórios para a CPU.
+- [x] **O Draft (Sua Vez):** Você recebe 5 Pokémons aleatórios.
+- [x] **Seleção Estratégica:** Desses 5, você deve escolher os 3 melhores para batalhar.
+- [ ] **Cálculo de Poder:** O sistema soma os atributos (Stats) para definir o vencedor.
+- [x] **Requisições Otimizadas:** Uso de `Promise.all` com **Axios** para carregar múltiplos Pokémons simultaneamente.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As tecnologias utilizadas para dar vida a este projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Linguagem:** JavaScript (ES6+).
+* **Requisições HTTP:** Biblioteca Axios.
+* **Dados:** PokeAPI (RESTful API).
+* **Front-end:** HTML5 e CSS3 (Design Responsivo).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Como Executar Localmente
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Siga os passos abaixo para rodar a aplicação na sua máquina:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clone o repositório
+```bash
+git clone [https://github.com/Naita1/pokedraft-battles.git](https://github.com/Naita1/pokedraft-battles.git)
+cd pokedraft-battles
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2\. Instale as dependências
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+### 3\. Inicie o Servidor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+node app.js
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O terminal exibirá: `Servidor rodando em http://localhost:3000`
 
-### Code Splitting
+### 4\. Acesse
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Abra seu navegador e vá para: `http://localhost:3000`
 
-### Analyzing the Bundle Size
+-----
+<div align="center"> <h3>🦸 Autora</h3> <a href="https://github.com/Naita1">  </a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<sub><b>Tainá Ribeiro</b></sub>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<a href="https://www.linkedin.com/in/taina-cl-ribeiro" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&color=81D4FA" /> </a> <a href="mailto:tainaribeir1930@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=F48FB1" /> </a> </div>
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=81D4FA,FFF59D,F48FB1&height=100&section=footer"/> </div>
