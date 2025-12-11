@@ -45,7 +45,7 @@ Siga os passos abaixo para rodar a aplicação na sua máquina:
 
 ### 1. Clone o repositório
 ```bash
-git clone [https://github.com/Naita1/pokedraft-battles.git](https://github.com/Naita1/pokedraft-battles.git)
+git clone https://github.com/Naita1/Poke-Draft-Battles.git
 cd pokedraft-battles
 ```
 
