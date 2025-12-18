@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Press+Start+2P&display=swap');
+
+:root {
+  --bg-dark: #212121;
+  --bg-panel: rgba(30, 30, 30, 0.9);
+  --primary-yellow: #ffcb05; 
+  --primary-blue: #3c5aa6;   
+  --accent-red: #ff3e3e;
+  --accent-green: #4caf50;
+  
+  --text-white: #f0f0f0;
+  --text-dark: #333;
+  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+  --shadow-card: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  
+  --font-retro: 'Press Start 2P', cursive;
+  --font-main: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-yellow);
+}
